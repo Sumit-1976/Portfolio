@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>                                                              
+<body>
+    <header>
+        <nav>
+            <div class="left">Sumit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hi, My name is <span class="purple">Sumit</span></div> 
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <button class="btn" type="button" onclick="location.href='assets/resume.pdf'">View Resume</button>
+                    <button class="btn" type="button" onclick="location.href='https://github.com/Sumit-1976'">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="assets/devpng.png" alt="">
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="assets/htmll.webp" alt="">
+                    <div class="vertical-title">
+                        Explored the field of Web Development
+                    </div>
+                    <div class="vertical-desc">
+                        Learnt HTML and CSS languages in my 1 semester of college
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="assets/bgg.webp" alt="">
+                    <div class="vertical-title">
+                        Made some small projects
+                    </div>
+                    <div class="vertical-desc">
+                        Designed some basic landing pages using HTML and CSS like the landing pages of amazon spotify and netflix
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="assets/cpp.webp" alt="">
+                    <div class="vertical-title">
+                        DSA in C++
+                    </div>
+                    <div class="vertical-desc">
+                        Explored DSA in C++ language as it was in our syllabus in our 3 semester
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="assets/hack.webp" alt="">
+                    <div class="vertical-title">
+                        Hackathons
+                    </div>
+                    <div class="vertical-desc">
+                        Participated in various hackathons in various colleges and experienced the coding communities
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="assets/intern.png" alt="">
+                    <div class="vertical-title">
+                        Virtual Internships 
+                    </div>
+                    <div class="vertical-desc">
+                        I am a motivated individual who actively seeks virtual internship opportunities across multiple platforms to enhance my skills and gain valuable experience
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="assets/react.svg" alt="">
+                    <div class="vertical-title">
+                        Learning more languages
+                    </div>
+                    <div class="vertical-desc">
+                        I am actively expanding my skillset by delving into languages such as ReactJS and Java, with a keen interest in exploring backend development
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sumit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><img class="img-foot" src="assets/insta.webp" alt=""></li>
+                    <li><a href="https://www.instagram.com/sumitkar111/">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><img class="img-foot" src="assets/link.webp" alt=""></li>
+                    <li><a href="https://www.linkedin.com/in/sumit-kumar-kar-214693268/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><img class="img-foot4" src="assets/git.svg" alt=""></li>
+                    <li><a href="https://github.com/Sumit-1976">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; sumitsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Web Designer','Video Editor'],typeSpeed: 50,});
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+footer{
+    background-color: #0e0e1a;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.img-foot{
+    width: 23px;
+}
+
+.img-foot4{
+    width: 40px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.left{
+    font-size: 2rem;
+}
+
+.main-text{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    margin-bottom: 0px;
+}
+
+.git-direct p{
+    margin-top: 50px;
+    font-size: 1.3rem;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.git-direct a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        min-width: fit-content;
+    }
+}
+
